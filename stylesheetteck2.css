@@ -1,0 +1,204 @@
+body{ margin:5px 5px;
+      font-size:22px;
+      background-color:#f5f5dc;
+
+font-family:monospace,monospace;
+	font-weight:;
+	     
+         }
+#back{
+background-color:black;
+color:#f5f5dc;
+}
+
+#yajirushi{
+	position:fixed;
+	bottom:160px;
+	right:10px;
+	border-radius:30px;
+}
+.header{   height:50px;
+          
+            }
+.header img{
+     position:fixed;
+     top:10px;
+     left:10px;
+     margin-left:0px;
+z-index:1;
+         }
+ 
+ 
+        }
+.container{
+       width:100%;
+          }
+
+.top-wrapper {
+           margin-bottom:50px;
+           margin-top:20px;
+	 
+          }
+.box1-wrapper{
+           margin-bottom:50px;
+           margin-top:50px;
+	      }
+ .box2-wrapper{
+           margin-bottom:50px;
+           margin-top:50px;
+          }
+.news-wrapper{
+           margin-bottom:50px;
+           margin-top:50px;
+          }
+
+.sponsor-wrapper{
+           margin-bottom:50px;
+           margin-top:50px;
+          }
+
+.teck-wrapper{
+           margin-bottom:0px;
+           margin-top:50px;
+          }
+ footer{
+ background-color:;
+ height:200px;
+ margin-bottom:5px;
+ border-radius:0px 0px 10px 10px;
+              }
+.footer-logo{
+    font-size:24px;
+    padding-top:20px;
+    padding-right:20px;
+	text-align:left;
+              }
+  footer p{
+	  font-weight:bold;
+}
+
+h1{
+    font-size:26px;
+    font-weight:bold;
+          }
+
+h2{  
+    font-size:25px;
+    font-weight:bold;
+          }
+h3{
+    font-size:25px;
+    font-weight:bold;
+          }
+
+
+
+.header-right{
+              text-align:right;
+              float:right;
+              position:fixed;
+              top:10px; right:10px;
+              font-weight:normal;
+	      font-size:21px;
+            
+              }
+
+li{float:left;
+    padding-right:5px;
+   list-style:none;
+　　font-size:12px;
+    margin-left:0px;
+    font-weight:bold;
+text-align:left;
+}
+
+ul{
+	text-align:left;
+}
+
+.sns-wrapper{position:fixed;
+          right:10px;
+          bottom:0px;
+          font-weight:;
+           margin-bottom:50px;
+          margin-right:auto;
+	  margin-left:auto;
+           background-color:;
+         border-radius:10px 10px 10px 10px;
+	 text-align:right;
+          
+            
+          }
+.sns-text{
+       width:;
+          height:;
+          padding:5px 5px 5px 5px;
+	 text-align:right;
+	 float:right;
+	  font-size:22px;
+            
+}
+
+
+
+.box-title{
+           font-weight:bold;
+           font-size:22px;
+           }
+
+
+
+ a{color:black}
+
+
+
+.footer-logo{
+  font-weight:bold;
+  font-size:22px;
+       }
+a:hover{
+    color:crimson;
+      }
+
+.btn-shine { 
+height:25px;
+width:250px;
+color:white; 
+background-color:darkgreen;  cursor: pointer; line-height: normal; text-decoration: none; 
+border: 2px solid transparent; 
+padding: 10px 10px; font-size:18px; font-weight:bold; text-align:center;
+display: flex; justify-content: center; align-items: center; 
+position: relative; overflow: hidden; 
+} 
+
+.btn-shine:hover{ color:darkgreen; background-color:white; } /* ボタンを光らせる */ .btn-shine:before { /*光るアニメーション用*/ 
+animation: shine 6s ease-in-out infinite;/*数字を変更することで光る間隔が変更*/ 
+background-color: #fff; content: " "; height: 100%; left: 0; opacity: 0; position: absolute; top: -180px; transform: rotate(45deg); 
+width: 40px; }
+
+ @keyframes shine { 0% { transform: scale(0) rotate(45deg); opacity: 0; } 80% { transform: scale(0) rotate(45deg); opacity: 0.5; } 81% { transform: scale(4) rotate(45deg); opacity: 1; } 100% { transform: scale(50) rotate(45deg); 
+opacity: 0; } }
+
+
+#ccc{
+     text-decoration:none;
+          }
+
+@keyframes typing {
+	from { width: 0; }
+}
+
+@keyframes cursor {
+	50% { border-right-color: transparent; }
+}
+
+.anime-type {
+	font: bold 250% Consolas, Monaco, monospace;
+	width: 15ch;
+	overflow: hidden;
+	white-space: nowrap;
+	border-right: .05em solid;
+	animation: typing 4s steps(33),
+	cursor 1s steps(1) infinite;
+}
+font-family: "Lucida Grande";
