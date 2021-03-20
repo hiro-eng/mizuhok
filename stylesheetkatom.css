@@ -1,16 +1,14 @@
 body{ margin:5px 5px;
       font-size:22px;
-      background-color:black;
-      color:white;
-	width:100%;
+      background-color:#f5f5dc;
 
 font-family:monospace,monospace;
 	font-weight:;
 	     
          }
 #back{
-background-color:white;
-color:black;
+background-color:black;
+color:#f5f5dc;
 }
 
 #yajirushi{
@@ -39,12 +37,6 @@ z-index:1;
 .top-wrapper {
            margin-bottom:50px;
            margin-top:20px;
-	 
-          }
-
-.menu-wrapper {
-           margin-bottom:70px;
-           margin-top:70px;
 	 
           }
 .box1-wrapper{
