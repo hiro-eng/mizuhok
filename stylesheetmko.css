@@ -52,6 +52,10 @@ h2{
   text-align:center;
 }
 
+h3{
+  text-align:right;
+}
+
  footer{
  background-color:slategray;
  height:140px;
@@ -96,5 +100,58 @@ li{float:left;
  }
 
 
+
+
+.sns-wrapper{position:fixed;
+          right:10px;
+          bottom:0px;
+          font-weight:bold;
+          margin-bottom:10px;
+          margin-top:50px;
+          color:white;
+          text-align:right;
+           background-color:;
+         border-radius:;
+
+          }
+
+
+
+.box-title{
+           font-weight:bold;
+           font-size:26px;
+           }
+
+
+
+.footer-logo{
+  font-weight:bold;
+  font-size:22px;
+  text-align:center;
+  color:red;
+       }
+
+       .footer-text{
+         font-weight:bold;
+         font-size:;
+         text-align:center;
+         color:red;
+              }
 #link{
-      color:white;}
+color:white;
+}
+
+#link2{
+  color:black;
+  background-color:white;
+  text-decoration:none;
+  font-weight:bold;
+  font-size:20px;
+}
+a:hover{ color:crimson;
+            }
+
+
+.last-text{
+  text-align:center;
+}
